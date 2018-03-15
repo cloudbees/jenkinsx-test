@@ -1,6 +1,6 @@
 pipeline {
     agent {
-      label "jenkins-maven"
+      label "master"
     }
     environment {
       ORG               = 'jenkinsx'
